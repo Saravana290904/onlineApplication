@@ -1,0 +1,14 @@
+.horizontal-container {
+  display: flex;
+  overflow-x: scroll;
+  white-space: nowrap;
+  scroll-behavior: smooth;
+}
+
+.horizontal-item {
+  min-width: 500px;
+  margin-right: 16px;
+  background-color: lightblue;
+  padding: 50px;
+  text-align: center;
+}

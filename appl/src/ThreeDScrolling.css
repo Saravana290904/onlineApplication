@@ -1,0 +1,17 @@
+.three-d-container {
+    perspective: 1000px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .three-d-box {
+    transform: rotateY(-20deg);
+    transition: transform 0.5s;
+  }
+  
+  .three-d-container:hover .three-d-box {
+    transform: rotateY(20deg);
+  }
+  
